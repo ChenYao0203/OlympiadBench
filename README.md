@@ -78,7 +78,7 @@ We use Mathpix OCR to parse official PDFs, then meticulously inspect, clean, rev
 The downloaded dataset contains two folders, ``data`` and ``images``.
 The ``data`` contains the categorized data. For example, OE_MM_physics_en_COMP.json, TP_TO_maths_zh_CEE.json.
       
-      * OE: Open-ended questions 开放问答题
+      * OE: Open-ended questions 主观问答题
       * TP: Theorem proof problems 证明题
       * MM: Multimodal 有图
       * TO: Text-only 无图
