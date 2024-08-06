@@ -78,16 +78,16 @@ We use Mathpix OCR to parse official PDFs, then meticulously inspect, clean, rev
 The downloaded dataset contains two folders, ``data`` and ``images``.
 The ``data`` contains the categorized data. For example, OE_MM_physics_en_COMP.json, TP_TO_maths_zh_CEE.json.
       
-      * OE: Open-ended questions
-      * TP: Theorem proof problems
-      * MM: Multimodal
-      * TO: Text-only
-      * physics: Physics problems
-      * maths: Math problems
-      * en: English
-      * zh: Chinese
-      * COMP: Competition problems
-      * CEE: Chinese College Entrance Exam problems
+      * OE: Open-ended questions 开放问答题
+      * TP: Theorem proof problems 证明题
+      * MM: Multimodal 有图
+      * TO: Text-only 无图
+      * physics: Physics problems 物理题
+      * maths: Math problems 数学题
+      * en: English 英文题
+      * zh: Chinese 中文题
+      * COMP: Competition problems 竞赛题
+      * CEE: Chinese College Entrance Exam problems 高考题
 ``images`` contains the corresponding images in ``data``.
 
 The data format for all datasets is as follows:
